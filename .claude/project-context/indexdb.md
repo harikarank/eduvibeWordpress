@@ -6,13 +6,10 @@
 
 | Keywords (any match, lowercase) | Module file        | Depends on         |
 | ------------------------------- | ------------------ | ------------------ |
-| auth, login, logout, signup, jwt, session, password, token, refresh-token | `auth.md`         | `user`             |
-| user, profile, account, role, permission, rbac                            | `user.md`         | —                  |
-| subscription, plan, tier, billing-cycle, upgrade, downgrade               | `subscription.md` | `user`, `payment`  |
-| payment, checkout, invoice, refund, stripe, razorpay, webhook             | `payment.md`      | `user`             |
-| video, stream, upload, transcode, playback, hls                           | `video.md`        | `user`             |
-
-> Replace the rows above with your own modules after running `/analyze-project`.
+| theme, template, header, footer, functions, enqueue, nav, menu, walker, front-page, page, archive, single, breadcrumb, assets | `wordpress-theme.md` | — |
+| contact, form, cf7, contact-form-7, wpcf7, submit, map, email, phone | `contact-form.md` | `wordpress-theme` |
+| blog, post, archive, listing, card, tag, prev, next, pagination, single-post, blog-details | `blog.md` | `wordpress-theme` |
+| course, courses, cpt, course-category, taxonomy, lessons, price, enroll, carousel, slick | `courses.md` | `wordpress-theme` |
 
 ## Maintenance rules
 

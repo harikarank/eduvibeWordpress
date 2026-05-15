@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcopy \"D:\\\\Harikaran\\\\Golang\\\\Live\\\\CMS\\\\assets\" \"D:\\\\Harikaran\\\\Golang\\\\Live\\\\CMS\\\\next-level-academy\\\\assets\" /E /I /Q)",
+      "PowerShell(Copy-Item *)"
+    ]
+  }
+}

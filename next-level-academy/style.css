@@ -1,0 +1,152 @@
+/*
+Theme Name: Next Level Academy
+Theme URI: https://thenextlevelacademy.com
+Author: Harikaran
+Description: WordPress theme for Next Level Academy - an education and courses platform.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Text Domain: next-level-academy
+*/
+
+/* ====================================================
+   Contact Form 7 — match .rwt-dynamic-form design
+   All selectors scoped to .rnt-contact-form so nothing
+   else on the site is affected.
+==================================================== */
+
+/* Strip CF7 wrapper default margins */
+.rnt-contact-form .wpcf7 {
+    margin: 0;
+    padding: 0;
+}
+.rnt-contact-form .wpcf7-form {
+    margin: 0;
+}
+
+/* Each field span → behave like .form-group */
+.rnt-contact-form .wpcf7-form-control-wrap {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* ── Text / Email / Tel inputs ── */
+.rnt-contact-form .wpcf7-form-control-wrap input[type="text"],
+.rnt-contact-form .wpcf7-form-control-wrap input[type="email"],
+.rnt-contact-form .wpcf7-form-control-wrap input[type="tel"] {
+    width: 100%;
+    background: #F5F5F5;
+    border-radius: 5px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    outline: none;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    height: 60px;
+    color: inherit;
+    font-family: var(--font-primary);
+}
+.rnt-contact-form .wpcf7-form-control-wrap input[type="text"]:focus,
+.rnt-contact-form .wpcf7-form-control-wrap input[type="email"]:focus,
+.rnt-contact-form .wpcf7-form-control-wrap input[type="tel"]:focus {
+    border-color: var(--color-primary);
+    background: #F5F5F5;
+    box-shadow: none;
+    outline: none;
+}
+
+/* ── Textarea ── */
+.rnt-contact-form .wpcf7-form-control-wrap textarea {
+    width: 100%;
+    background: #F5F5F5;
+    padding: 17px 30px;
+    min-height: 180px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    outline: none;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 5px;
+    resize: none;
+    color: inherit;
+    font-family: var(--font-primary);
+}
+.rnt-contact-form .wpcf7-form-control-wrap textarea:focus {
+    border-color: var(--color-primary);
+    outline: none;
+    box-shadow: none;
+}
+
+/* ── Submit button → matches .rn-btn.edu-btn.w-100 ── */
+.rnt-contact-form .wpcf7-submit {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    color: var(--color-white);
+    background: var(--color-primary);
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.4s;
+    font-family: var(--font-primary);
+    border: 0 none;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.rnt-contact-form .wpcf7-submit:hover {
+    background: var(--color-secondary);
+    color: var(--color-white);
+}
+/* Disable the button while CF7 is submitting */
+.rnt-contact-form .wpcf7-submit:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* ── Hide CF7's default spinner (button already gives feedback) ── */
+.rnt-contact-form .wpcf7-spinner {
+    display: none;
+}
+
+/* ── Validation: red border on invalid fields ── */
+.rnt-contact-form .wpcf7-not-valid {
+    border-color: #e74c3c !important;
+}
+
+/* ── Inline validation tip below field ── */
+.rnt-contact-form .wpcf7-not-valid-tip {
+    display: block;
+    font-size: 13px;
+    color: #e74c3c;
+    margin-top: 5px;
+}
+
+/* ── Response output (success / error banner) ── */
+.rnt-contact-form .wpcf7-response-output {
+    margin: 20px 0 0;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+}
+.rnt-contact-form .wpcf7-form.sent .wpcf7-response-output {
+    background: #e6f9f0;
+    color: #019267;
+    border: 1px solid #019267;
+}
+.rnt-contact-form .wpcf7-form.failed .wpcf7-response-output,
+.rnt-contact-form .wpcf7-form.invalid .wpcf7-response-output,
+.rnt-contact-form .wpcf7-form.spam .wpcf7-response-output,
+.rnt-contact-form .wpcf7-form.aborted .wpcf7-response-output {
+    background: #fef0f0;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+}
