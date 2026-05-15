@@ -1,0 +1,91 @@
+
+
+:root {
+  --color-primary: #a53692;
+  --color-secondary: #faa831;
+  --color-secondary-alt: #FFF6F4;
+  --color-tertiary: #FFA41B;
+  --color-tertiary-2: #543874;
+  --color-dark: #543874;
+  --color-body: #6F6B80;
+  --color-heading: #543874;
+  --color-white: #ffffff;
+  --color-shape: #EEEEEE;
+  --color-shade: #F5F5F5;
+  --color-border: #EEEEEE;
+  --color-black: #000000;
+  --color-blackest: #0f0f11;
+  --color-extra01: #666666;
+  --color-extra02: #606770;
+  --color-extra03: #FBFBFD;
+  --color-extra04: #1A1A1A;
+  --color-extra05: #242424;
+  --color-extra06: #DBF1C0;
+  --color-extra07: #C6ECE8;
+  --color-extra08: #C3ECCE;
+  --color-success: #3EB75E;
+  --color-danger: #FF0003;
+  --color-warning: #FF8F3C;
+  --color-info: #1BA2DB;
+  --color-facebook: #3B5997;
+  --color-twitter: #1BA1F2;
+  --color-youtube: #ED4141;
+  --color-linkedin: #0077B5;
+  --color-pinterest: #E60022;
+  --color-instagram: #C231A1;
+  --color-vimeo: #00ADEF;
+  --color-twitch: #6441A3;
+  --color-discord: #7289da;
+  --border-width: 2px;
+  --radius-small: 5px;
+  --radius: 10px;
+  --radius-big: 16px;
+  --p-light: 300;
+  --p-regular: 400;
+  --p-medium: 500;
+  --p-semi-bold: 600;
+  --p-bold: 700;
+  --p-extra-bold: 700;
+  --p-black: 700;
+  --shadow-primary: 0px 8px 30px rgba(0, 0, 0, 0.04);
+  --shadow-light: 1px 1px 6px rgba(0,0,0,0.25);
+  --shadow-lighter: 4px 4px 20px 20px rgba(0,0,0,0.01);
+  --transition: 0.3s;
+  --transition-2: 0.7s;
+  --transition-transform: transform .65s cubic-bezier(.23,1,.32,1);
+  --font-primary: 'Urbanist', sans-serif;
+  --font-secondary: 'Urbanist', sans-serif;
+  --font-awesome: 'Font Awesome 5 Pro';
+  --font-size-b1: 18px;
+  --font-size-b2: 16px;
+  --font-size-b3: 14px;
+  --font-size-b4: 12px;
+  --line-height-b1: 1.67;
+  --line-height-b2: 1.63;
+  --line-height-b3: 1.6;
+  --line-height-b4: 1.3;
+  --h1: 62px;
+  --h2: 48px;
+  --h3: 30px;
+  --h4: 22px;
+  --h5: 20px;
+  --h6: 20px;
+  --h1-lineHeight: 1.25;
+  --h2-lineHeight: 1.24;
+  --h3-lineHeight: 1.4;
+  --h4-lineHeight: 1.38;
+  --h5-lineHeight: 1.5;
+  --h6-lineHeight: 1.6; }
+.edu-header.header-sticky{border-bottom: 1px solid #ebebeb;}
+.mainmenu-nav .mainmenu li.has-droupdown .submenu li a{padding: 3px 10px;}
+.edu-header .logo a img{max-height: 65px;}
+.edu-header.disable-transparent .logo a{line-height: 82px;}
+img.white-icon { filter: brightness(0) invert(1); }
+footer .logo img{max-width: 250px;}
+.edu-section-gap{    padding: 90px 0 !important;}
+.video-gallery-overlay-area{padding-top: 400px !important;}
+.banner-style-4 .content .title{font-size: 45px;margin-bottom: 10px;}
+.section-title .title{font-size: 35px;}
+.banner-style-4 .content .description{    margin-bottom: 30px;}
+.footer-style-default .widget-title{font-weight: 600;}
+.blog-tag-and-share{border-bottom: 0;}
