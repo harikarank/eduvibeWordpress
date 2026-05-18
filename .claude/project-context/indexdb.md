@@ -11,6 +11,10 @@
 | blog, post, archive, listing, card, tag, prev, next, pagination, single-post, blog-details | `blog.md` | `wordpress-theme` |
 | course, courses, cpt, course-category, taxonomy, lessons, price, enroll, carousel, slick | `courses.md` | `wordpress-theme` |
 
+## Notes
+
+- Theme root = repository root (no longer the `next-level-academy/` subfolder). Original static HTML sources were deleted on 2026-05-18; any "source HTML" reference in modules is historical only.
+
 ## Maintenance rules
 
 - Update this file whenever a module is added, renamed, or removed.

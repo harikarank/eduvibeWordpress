@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(xcopy \"D:\\\\Harikaran\\\\Golang\\\\Live\\\\CMS\\\\assets\" \"D:\\\\Harikaran\\\\Golang\\\\Live\\\\CMS\\\\next-level-academy\\\\assets\" /E /I /Q)",
-      "PowerShell(Copy-Item *)"
+      "PowerShell(Copy-Item *)",
+      "Bash(grep -E \"^\\(functions|header|footer|index\\)\\\\.php$\")",
+      "Bash(mkdir -p \".claude/project-context/corrections/_archive/2026-05-18/wordpress-theme\")",
+      "Bash(git mv *)",
+      "Bash(mv -f \".claude/project-context/corrections/wordpress-theme/2026-05-18_1900_ver_2.md\" \".claude/project-context/corrections/_archive/2026-05-18/wordpress-theme/2026-05-18_1900_ver_2.md\")",
+      "Bash(rmdir \".claude/project-context/corrections/wordpress-theme\")"
     ]
   }
 }

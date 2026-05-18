@@ -1,5 +1,16 @@
+/*
+Theme Name: Next Level Academy
+Theme URI: https://thenextlevelacademy.com
+Author: Harikaran
+Description: WordPress theme for Next Level Academy - an education and courses platform.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Text Domain: next-level-academy
+*/
 
 
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --color-primary: #a53692;
   --color-secondary: #faa831;
@@ -42,19 +53,19 @@
   --radius-big: 16px;
   --p-light: 300;
   --p-regular: 400;
-  --p-medium: 500;
-  --p-semi-bold: 600;
-  --p-bold: 700;
-  --p-extra-bold: 700;
-  --p-black: 700;
+  --p-medium: 400;
+  --p-semi-bold: 500;
+  --p-bold: 600;
+  --p-extra-bold: 600;
+  --p-black: 600;
   --shadow-primary: 0px 8px 30px rgba(0, 0, 0, 0.04);
   --shadow-light: 1px 1px 6px rgba(0,0,0,0.25);
   --shadow-lighter: 4px 4px 20px 20px rgba(0,0,0,0.01);
   --transition: 0.3s;
   --transition-2: 0.7s;
   --transition-transform: transform .65s cubic-bezier(.23,1,.32,1);
-  --font-primary: 'Urbanist', sans-serif;
-  --font-secondary: 'Urbanist', sans-serif;
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
   --font-awesome: 'Font Awesome 5 Pro';
   --font-size-b1: 18px;
   --font-size-b2: 16px;
@@ -76,16 +87,212 @@
   --h4-lineHeight: 1.38;
   --h5-lineHeight: 1.5;
   --h6-lineHeight: 1.6; }
+p{    font-weight: 400;}
 .edu-header.header-sticky{border-bottom: 1px solid #ebebeb;}
 .mainmenu-nav .mainmenu li.has-droupdown .submenu li a{padding: 3px 10px;}
 .edu-header .logo a img{max-height: 65px;}
-.edu-header.disable-transparent .logo a{line-height: 82px;}
+/*.edu-header.disable-transparent .logo a{line-height: 82px;}*/
 img.white-icon { filter: brightness(0) invert(1); }
 footer .logo img{max-width: 250px;}
-.edu-section-gap{    padding: 90px 0 !important;}
-.video-gallery-overlay-area{padding-top: 400px !important;}
-.banner-style-4 .content .title{font-size: 45px;margin-bottom: 10px;}
+.edu-section-gap,.style-hero{    padding: 70px 0 !important;}
+.padding-none{padding-top:0 !important;padding-bottom:0 !important;}
+.padding-top-none{padding-top:0 !important;}
+.padding-bottom-none{padding-bottom:0 !important;}
+.video-gallery-overlay-area{padding-top: 330px !important;}
+.edu-section-gapTop{padding-top: 20px !important;}.video-section-overlayto-another{margin-bottom: -350px;}
+.banner-style-4 .content .title,.eduvibe-landing-banner .content .title{font-size: 45px;margin-bottom: 10px;}
 .section-title .title{font-size: 35px;}
 .banner-style-4 .content .description{    margin-bottom: 30px;}
 .footer-style-default .widget-title{font-weight: 600;}
 .blog-tag-and-share{border-bottom: 0;}
+.mainmenu-nav .mainmenu > li > a{font-weight: 400;}
+.section-title.small{max-width: 600px;margin: auto;}
+.section-title.medium{max-width: 800px;margin: auto;}
+.section-title.small h2{font-size: 30px;}
+.service-card-5 .inner .icon{min-width: 60px;}
+.about-style-6 .inner .feature-list-wrapper.fullwidth .feature-list{flex-basis: 100%;    margin-top: 5px;width: 100%;
+    display: block;}
+.about-style-6 .inner .feature-list-wrapper.fullwidth{margin-top: -20px; margin-bottom: 20px;}
+.about-style-6 .inner .feature-list-wrapper.fullwidth .feature-list i{font-size: 13px;}
+.style-hero .btn-group-vertical{flex-flow: row wrap; justify-content: flex-start;}
+.style-hero .btn-group-vertical .left-button{margin-right: 20px;}
+.style-hero .edu-btn.bg-white.right-button{color: var(--color-primary);}
+.style-hero .edu-btn.bg-white.right-button:hover{color: var(--color-secondary);}
+.style-hero  .banner-image .thumbnail img{border-radius: 0px;}
+.style-hero .home-four-banner-wrapper{min-height: 100px;}
+.style-hero .banner-image,.style-hero .home-four-banner-wrapper{padding: 0px;}
+.title.code span{color:var(--color-primary);}
+.course-details-content .title{margin-bottom: 20px;}
+
+.eduvibe-course-one-carousel .single-slick-card{max-width: 400px;}
+
+.eduvibe-bg-image{background-image: url(./assets/images/bg/home-one-service.jpg); background-size: cover;}
+
+.discountbox { background: transparent; border-radius: 0; padding: 0; box-shadow: none; border: 0; max-width: 100%; position: relative; overflow: hidden; margin-top: 30px; } 
+.discountbox:before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: linear-gradient(90deg,#ff7a18,#ffb800); } 
+.discount-header { font-size: 21px; font-weight: 700; margin-bottom: 0; text-align: center; text-transform: uppercase; padding: 6px 10px; background: #faa831; color: #FFF; background: linear-gradient(90deg, #ff7a18, #ffb800);     margin-bottom: 10px;} 
+.discount-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px dashed #e5e7eb; gap: 20px; } 
+.discount-row:last-child { border-bottom: none; } 
+.discount-row .label { font-size: 15px; font-weight: 500; } 
+.discount-row .value { font-size: 17px; color: var(--color-heading); font-weight: 700; text-align: right; } 
+.discount-row .discount { color: #dc2626; } 
+.discount-row.total {margin-top: 0; padding-top: 5px; border-top: 0; border-bottom: none;} 
+.discount-row.total .label { font-size: 18px; color: var(--color-primary); font-weight: 700; } 
+.final-price { font-size: 30px !important; color: #16a34a !important; font-weight: 800; }
+
+.pre-title.color{letter-spacing: 0.1em; text-transform: uppercase; font-weight: 800; font-size: 16px; line-height: 26px; color: var(--color-primary); display: block; margin-bottom: 5px;}
+.course-details-card .course-content p:last-child,.edu-accordion-body p:last-child{margin-bottom: 0px;}
+.edu-accordion-02 .edu-accordion-button{background: #f8f8f8;    color: var(--color-body);font-weight: 500;}
+.edu-accordion-02 .edu-accordion-item.bg-active .edu-accordion-button{background: #dbdbdb;color: var(--color-heading);}
+.edu-accordion-02 .edu-accordion-button{padding: 13px 20px;padding-right: 40px;}
+.edu-accordion-02 .edu-accordion-body{padding: 20px;}
+
+.feature-style-2.fullwidth .single-feature{flex-basis: 100%;    margin-top: 10px;margin-bottom: 10px;width: 100%; display: block;}
+.feature-style-2.fullwidth .icon{position: absolute;color:var(--color-secondary);}
+.feature-style-2.fullwidth .content{    padding-left: 50px;padding-top: 5px;}
+.feature-style-2.fullwidth .single-feature .content .feature-title{font-weight: 500;color: var(--color-body);}
+.edu-slick-button .slick-dots{bottom: -20px;}
+.edu-testimonial-activation.edu-slick-button{margin-bottom: 0;}
+
+/* ====================================================
+   Contact Form 7 — match .rwt-dynamic-form design
+   All selectors scoped to .rnt-contact-form so nothing
+   else on the site is affected.
+==================================================== */
+
+/* Strip CF7 wrapper default margins */
+.rnt-contact-form .wpcf7 {
+    margin: 0;
+    padding: 0;
+}
+.rnt-contact-form .wpcf7-form {
+    margin: 0;
+}
+
+/* Each field span → behave like .form-group */
+.rnt-contact-form .wpcf7-form-control-wrap {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* ── Text / Email / Tel inputs ── */
+.rnt-contact-form .wpcf7-form-control-wrap input[type="text"],
+.rnt-contact-form .wpcf7-form-control-wrap input[type="email"],
+.rnt-contact-form .wpcf7-form-control-wrap input[type="tel"] {
+    width: 100%;
+    background: #F5F5F5;
+    border-radius: 5px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    outline: none;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    height: 60px;
+    color: inherit;
+    font-family: var(--font-primary);
+}
+.rnt-contact-form .wpcf7-form-control-wrap input[type="text"]:focus,
+.rnt-contact-form .wpcf7-form-control-wrap input[type="email"]:focus,
+.rnt-contact-form .wpcf7-form-control-wrap input[type="tel"]:focus {
+    border-color: var(--color-primary);
+    background: #F5F5F5;
+    box-shadow: none;
+    outline: none;
+}
+
+/* ── Textarea ── */
+.rnt-contact-form .wpcf7-form-control-wrap textarea {
+    width: 100%;
+    background: #F5F5F5;
+    padding: 17px 30px;
+    min-height: 180px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    outline: none;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 5px;
+    resize: none;
+    color: inherit;
+    font-family: var(--font-primary);
+}
+.rnt-contact-form .wpcf7-form-control-wrap textarea:focus {
+    border-color: var(--color-primary);
+    outline: none;
+    box-shadow: none;
+}
+
+/* ── Submit button → matches .rn-btn.edu-btn.w-100 ── */
+.rnt-contact-form .wpcf7-submit {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    color: var(--color-white);
+    background: var(--color-primary);
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.4s;
+    font-family: var(--font-primary);
+    border: 0 none;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.rnt-contact-form .wpcf7-submit:hover {
+    background: var(--color-secondary);
+    color: var(--color-white);
+}
+/* Disable the button while CF7 is submitting */
+.rnt-contact-form .wpcf7-submit:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* ── Hide CF7's default spinner (button already gives feedback) ── */
+.rnt-contact-form .wpcf7-spinner {
+    display: none;
+}
+
+/* ── Validation: red border on invalid fields ── */
+.rnt-contact-form .wpcf7-not-valid {
+    border-color: #e74c3c !important;
+}
+
+/* ── Inline validation tip below field ── */
+.rnt-contact-form .wpcf7-not-valid-tip {
+    display: block;
+    font-size: 13px;
+    color: #e74c3c;
+    margin-top: 5px;
+}
+
+/* ── Response output (success / error banner) ── */
+.rnt-contact-form .wpcf7-response-output {
+    margin: 20px 0 0;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+}
+.rnt-contact-form .wpcf7-form.sent .wpcf7-response-output {
+    background: #e6f9f0;
+    color: #019267;
+    border: 1px solid #019267;
+}
+.rnt-contact-form .wpcf7-form.failed .wpcf7-response-output,
+.rnt-contact-form .wpcf7-form.invalid .wpcf7-response-output,
+.rnt-contact-form .wpcf7-form.spam .wpcf7-response-output,
+.rnt-contact-form .wpcf7-form.aborted .wpcf7-response-output {
+    background: #fef0f0;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+}

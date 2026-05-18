@@ -3,18 +3,18 @@
 > ≤ 300 words. Current focus only. Remove items the moment they are resolved or merged.
 
 ## Focus
-- WordPress theme conversion complete for Next Level Academy (education site)
+- Theme restructure consolidated into modules (wordpress-theme 1.2). No active task in flight.
 
 ## Active decisions
-- CF7 assumed always active on the site; no native form fallback maintained
-- Blog single page is full-width (col-lg-10 offset-lg-1) — no sidebar, matches original HTML
-- All CF7 CSS scoped under `.rnt-contact-form` to avoid global style bleed
+- (none — see modules/wordpress-theme.md for layout & stylesheet rules)
 
 ## Constraints
 - Flush WP permalinks after activating theme (CPT requires it)
-- CF7 form must be created manually in Admin with title "Contact Form"
-- Page templates (About Us, Contact Us) must be assigned in Admin → Pages → Attributes
+- CF7 form created manually in Admin, title "Contact Form"
+- Page templates (About Us, Contact Us) assigned in Admin → Pages → Attributes
+
+## Pending corrections (run `/consolidate` to merge)
+- (none)
 
 ## Known issues
 - (none)
-
